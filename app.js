@@ -54,3 +54,52 @@ for (let i = order.length -1 ; i >= 0; i--) {
     
 }
 
+
+
+var arr_1 = [3, 5, 22, 5,  7,  2,  45, 75, 89, 21, 2];
+var arr_2 = [9, 2, 42, 55, 71, 22, 4,  5,  90, 25, 26];
+var result = 0;
+for (let i = 0; i < arr_1.length; i++) {
+    result += arr_1[i];
+    
+}
+for (let j = 0; j < arr_2.length; j++) {
+    result += arr_2[j];
+    
+}
+console.log(result);
+
+
+var number = prompt("enter");
+for(var i = 1; i <= number; i++) {
+   if(i % 2 == 0){
+        console.log(i);
+    }
+    
+}
+
+var arr = [43, "what", 9, true, "cannot", false, "be", 3, true];
+for (let i = arr.length - 1; i >= 0; i--) {
+    console.log(arr[i]);
+    
+}
+
+var arr_3   = [4, 6, 7];
+var arr_4    = [8, 1, 9];
+var sum = [];
+// for (let i = 0; i < arr_3.length; i++) {
+//     console.log(arr_3[i]);
+// }
+
+sum.push(arr_4[0] + arr_3[0]);
+sum.push(arr_4[1] + arr_3[1]);
+sum.push(arr_4[2] + arr_3[2]);
+console.log(sum);
+
+// for (let h = 0; h < arr_3.length; h++) {
+//     var sum = arr_3[h] + arr_4[h];
+//     sum.push(sum);
+    
+// }
+// console.log(sum);
+
