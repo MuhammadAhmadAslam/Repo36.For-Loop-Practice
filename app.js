@@ -103,3 +103,25 @@ console.log(sum);
 // }
 // console.log(sum);
 
+
+
+var namesArray = [['ahmed' , 17] , ['hammad' ,16] , ['hamza' , 14]];
+var checking = []
+for(var i = 0 ; i < namesArray.length; i++){
+    console.log(namesArray[i][0][0]);
+    if(namesArray[i][0][0] === "h"){
+        console.log('Name starting with h match');
+    }else if(namesArray[i][0][0] === "a"){
+        console.log('Name starting with a match');
+    }
+}
+
+
+
+
+
+
+
+
+
+
