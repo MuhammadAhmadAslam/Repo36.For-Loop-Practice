@@ -118,6 +118,124 @@ for(var i = 0 ; i < namesArray.length; i++){
 
 
 
+var concatArray1 = [2, "ahmed" , 5 , 'hammad'];
+var concatArray2 = ['abdul hadi' , 9 , 10];
+var empty = concatArray1.concat(concatArray2);
+console.log(empty);
+
+var months = ["Januar", "Februar", "Mar", "April"];
+var myMonths = months.reverse();
+console.log(myMonths);
+
+
+var hello = ["ahmed" , "hammad" , 1 , 2];
+var c =  hello.includes("ahmed"); 
+console.log('found');
+
+console.log(hello.reverse());
+
+
+var fruits = ['banana' , 'apple' , 'mango' , 1 , 4 , 'onion' , 'potato' , 'tomato' , 2 , 9, 100];
+console.log(fruits.sort());
+console.log(fruits.reverse());
+
+for(i= 0; i <= 15; i++){
+    console.log(i);
+}
+for (let i = 12; i <= 24; i++) {
+    console.log(i);
+    
+}
+for (let i = 7; i <= 31; i++) {
+    if (i%2 != 0) {
+        console.log(i);
+    }
+     console.log(i);
+}
+
+
+for (let i = 10; i >= -20 ; i--) {
+    if (i%2 === 0) {
+        console.log(i);
+       
+    }
+    
+}
+
+
+
+
+
+var num = prompt('enter a number')
+for (var i = 1; i <= 45; i++) {
+    if (i%3 === 0 && i%5 === 0) {
+      console.log('Fizz & Buzz');
+    }else if(i%5 === 0){
+        console.log('Buzz');
+    }else if(i%3 === 0){
+        console.log('Fizz');
+    }
+    
+}
+
+
+
+
+var thisIsAnArray = ["element1", "element2", "element3", "element4"];
+for (let i = 0; i < thisIsAnArray.length; i++) {
+   console.log(thisIsAnArray[i]);
+    
+}
+
+
+var numbersArray = [1,13,22,123,49];
+var result1= 0;
+for (var i = 0; i < numbersArray.length; i++) {
+ result1 +=   result1 + numbersArray[i];
+   
+}
+console.log(result1);
+
+
+
+
+
+
+var addition1 = [12, 12, 12, 12]
+var addition2 = [12 ,12 , 12 ,12]
+var add = 0;
+for (let i = 0; i < addition1.length; i++) {
+    add = add + addition1[i];
+    
+}
+console.log(add);
+for (let i = 0; i < addition2.length; i++) {
+    add = add + addition2[i];
+    
+}
+console.log(add);
+
+
+var average = [12 ,12 ,12, 12, 12, 12]
+var totalAverage = 6
+
+for (let i = 0; i < average.length; i++) {
+    var CHECK = (average[i]/totalAverage);
+    
+}
+
+
+
+
+console.log(CHECK);
+
+
+
+
+
+ 
+
+
 
 
 
